@@ -1,0 +1,5 @@
+name: libyaml
+sources:
+  - type: archive
+    url: http://pyyaml.org/download/libyaml/yaml-0.2.1.tar.gz
+    sha256: 78281145641a080fb32d6e7a87b9c0664d611dcb4d542e90baf731f51cbb59cd
