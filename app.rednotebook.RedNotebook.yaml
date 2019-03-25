@@ -30,6 +30,7 @@ modules:
   - gtksourceview.yaml
   - enchant.yaml
   - python3-pyenchant.yaml
+  - libyaml.yaml
   - python3-PyYAML.yaml
   - RedNotebook.yaml
 cleanup:
