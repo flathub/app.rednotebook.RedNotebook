@@ -40,6 +40,6 @@
     <binary>rednotebook</binary>
   </provides>
   <releases>
-    <release version="2.11" date="2019-03-26"/>
+    <release version="2.11.1" date="2019-04-07"/>
   </releases>
 </component>
