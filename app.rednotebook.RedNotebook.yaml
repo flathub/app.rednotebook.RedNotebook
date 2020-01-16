@@ -1,6 +1,6 @@
 app-id: app.rednotebook.RedNotebook
 runtime: org.gnome.Platform
-runtime-version: '3.32'
+runtime-version: '3.34'
 sdk: org.gnome.Sdk
 command: rednotebook
 rename-appdata-file: rednotebook.appdata.xml
@@ -19,11 +19,6 @@ finish-args:
   # Network access
   # to access remote images
   - --share=network
-  # Dconf access
-  - --filesystem=xdg-run/dconf
-  - --filesystem=~/.config/dconf:ro
-  - --talk-name=ca.desrt.dconf
-  - --env=DCONF_USER_CONFIG_DIR=.config/dconf
   # OpenGL access
   - --device=dri
 modules:
