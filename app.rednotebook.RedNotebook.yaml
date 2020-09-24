@@ -16,6 +16,8 @@ finish-args:
   # Filesystem access
   # to access local images and other files
   - --filesystem=home
+  - --filesystem=/media
+  - --filesystem=/run/media
   # Network access
   # to access remote images
   - --share=network
