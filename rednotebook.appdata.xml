@@ -10,12 +10,13 @@
     <p>Modern desktop diary and personal journaling tool. It lets you format,
     tag and search your entries. You can also add pictures, links and
     customisable templates, spell check your notes, and export to plain
-    text, HTML or LaTeX.</p>
+    text, HTML, LaTeX or PDF.</p>
   </description>
-  <url type="homepage">https://rednotebook.app</url>
+  <url type="homepage">https://rednotebook.sourceforge.io</url>
   <url type="bugtracker">https://github.com/jendrikseipp/rednotebook/issues</url>
-  <url type="feedback">https://github.com/jendrikseipp/rednotebook/discussions</url>
-  <url type="translate">https://hosted.weblate.org/engage/rednotebook</url>
+  <url type="faq">https://answers.launchpad.net/rednotebook/+faqs</url>
+  <url type="help">https://answers.launchpad.net/rednotebook</url>
+  <url type="translate">https://translations.launchpad.net/rednotebook</url>
   <screenshots>
     <screenshot type="default">
       <caption>Edit mode</caption>
@@ -39,6 +40,6 @@
     <binary>rednotebook</binary>
   </provides>
   <releases>
-    <release version="2.27.2" date="2022-12-01"/>
+    <release version="2.28" date="2022-12-28"/>
   </releases>
 </component>
