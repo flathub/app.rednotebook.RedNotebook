@@ -16,7 +16,7 @@
   <url type="bugtracker">https://github.com/jendrikseipp/rednotebook/issues</url>
   <url type="faq">https://answers.launchpad.net/rednotebook/+faqs</url>
   <url type="help">https://answers.launchpad.net/rednotebook</url>
-  <url type="translate">https://translations.launchpad.net/rednotebook</url>
+  <url type="translate">https://hosted.weblate.org/engage/rednotebook</url>
   <screenshots>
     <screenshot type="default">
       <caption>Edit mode</caption>
