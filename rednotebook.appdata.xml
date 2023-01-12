@@ -18,6 +18,7 @@
   <url type="help">https://rednotebook.app/help.html</url>
   <url type="donation">https://rednotebook.app/downloads.html</url>
   <url type="translate">https://hosted.weblate.org/engage/rednotebook</url>
+  <url type="contribute">https://rednotebook.app/participate.html</url>
   <screenshots>
     <screenshot type="default">
       <caption>Edit mode</caption>
