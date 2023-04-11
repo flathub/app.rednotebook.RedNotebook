@@ -2,8 +2,8 @@ name: RedNotebook
 buildsystem: simple
 sources:
   - type: archive
-    url: https://github.com/jendrikseipp/rednotebook/archive/v2.29.3.tar.gz
-    sha256: 9f98217cab22641bb2c5f8245a76a7a423757786705ec0b10a1e38eb1232339a
+    url: https://github.com/jendrikseipp/rednotebook/archive/v2.29.4.tar.gz
+    sha256: 99e2f266ac6e517d8de53a39ac7056bb2ec23a38868bebaef5961c478ace82ae
   - type: file
     path: rednotebook.appdata.xml
     dest: data
