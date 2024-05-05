@@ -5,7 +5,6 @@
   <project_license>GPL-3.0+</project_license>
   <name>RedNotebook</name>
   <developer_name>Jendrik Seipp</developer_name>
-  <update_contact>jendrikseipp_AT_gmail.com</update_contact>
   <summary>Graphical diary and journal</summary>
   <description>
     <p>Modern desktop diary and personal journaling tool. It lets you format,
@@ -20,15 +19,14 @@
   <url type="donation">https://rednotebook.app/downloads.html</url>
   <url type="translate">https://hosted.weblate.org/engage/rednotebook</url>
   <url type="contribute">https://rednotebook.app/participate.html</url>
-  <url type="vcs-browser">https://github.com/jendrikseipp/rednotebook</url>
   <screenshots>
     <screenshot type="default">
-      <caption>RedNotebook - Edit mode</caption>
-      <image>https://rednotebook.app/screenshots/rednotebook-2.0-1.png</image>
+      <caption>Edit mode</caption>
+      <image>https://rednotebook.sourceforge.io/screenshots/rednotebook-2.0-1.png</image>
     </screenshot>
     <screenshot>
-      <caption>RedNotebook - Preview mode</caption>
-      <image>https://rednotebook.app/screenshots/rednotebook-2.0-2.png</image>
+      <caption>Preview mode</caption>
+      <image>https://rednotebook.sourceforge.io/screenshots/rednotebook-2.0-2.png</image>
     </screenshot>
   </screenshots>
   <kudos>
@@ -44,6 +42,6 @@
     <binary>rednotebook</binary>
   </provides>
   <releases>
-    <release version="2.32" date="2024-02-17"/>
+    <release version="2.33" date="2024-05-05"/>
   </releases>
 </component>
