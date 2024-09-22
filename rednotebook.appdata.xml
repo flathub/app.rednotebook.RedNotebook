@@ -44,6 +44,6 @@
     <binary>rednotebook</binary>
   </provides>
   <releases>
-    <release version="2.34" date="2024-09-16"/>
+    <release version="2.35" date="2024-09-22"/>
   </releases>
 </component>
