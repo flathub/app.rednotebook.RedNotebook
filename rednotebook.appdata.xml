@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component type="desktop">
+  <!-- https://www.freedesktop.org/software/appstream/docs/sect-Metadata-Application.html#tag-id-desktopapp -->
   <id>app.rednotebook.RedNotebook</id>
   <metadata_license>CC0-1.0</metadata_license>
-  <project_license>GPL-3.0+</project_license>
+  <!-- https://www.freedesktop.org/software/appstream/docs/chap-Metadata.html#tag-project_license -->
+  <project_license>GPL-2.0+</project_license>
   <name>RedNotebook</name>
-  <developer_name>Jendrik Seipp</developer_name>
+  <developer>
+    <name>Jendrik Seipp</name>
+  </developer>
   <update_contact>jendrikseipp_AT_gmail.com</update_contact>
   <summary>Graphical diary and journal</summary>
   <description>
@@ -13,6 +17,8 @@
     customisable templates, spell check your notes, and export to plain
     text, HTML, LaTeX or PDF.</p>
   </description>
+
+  <!-- https://www.freedesktop.org/software/appstream/docs/chap-Metadata.html#tag-url -->
   <url type="homepage">https://rednotebook.app</url>
   <url type="bugtracker">https://github.com/jendrikseipp/rednotebook/issues</url>
   <url type="faq">https://github.com/jendrikseipp/rednotebook/discussions</url>
@@ -21,6 +27,8 @@
   <url type="translate">https://hosted.weblate.org/engage/rednotebook</url>
   <url type="contribute">https://rednotebook.app/participate.html</url>
   <url type="vcs-browser">https://github.com/jendrikseipp/rednotebook</url>
+
+  <!-- https://www.freedesktop.org/software/appstream/docs/sect-Metadata-Application.html#tag-dapp-screenshots -->
   <screenshots>
     <screenshot type="default">
       <caption>RedNotebook - Edit mode</caption>
@@ -31,18 +39,22 @@
       <image>https://rednotebook.app/screenshots/rednotebook-2.0-2.png</image>
     </screenshot>
   </screenshots>
-  <kudos>
-    <kudo>ModernToolkit</kudo>
-    <kudo>HiDpiIcon</kudo>
-    <kudo>HighContrast</kudo>
-    <kudo>UserDocs</kudo>
-  </kudos>
+
+  <!-- https://www.freedesktop.org/software/appstream/docs/chap-Metadata.html#tag-content_rating -->
   <content_rating type="oars-1.0" />
+
+  <!-- https://www.freedesktop.org/software/appstream/docs/chap-Metadata.html#tag-translation -->
   <translation type="gettext">rednotebook</translation>
+
+  <!-- https://www.freedesktop.org/software/appstream/docs/sect-Metadata-Application.html#tag-dapp-launchable -->
   <launchable type="desktop-id">app.rednotebook.RedNotebook.desktop</launchable>
+
+  <!-- https://www.freedesktop.org/software/appstream/docs/sect-Metadata-Application.html#tag-dapp-provides -->
   <provides>
     <binary>rednotebook</binary>
   </provides>
+
+  <!-- https://www.freedesktop.org/software/appstream/docs/chap-Metadata.html#tag-releases -->
   <releases>
     <release version="2.34" date="2024-09-16"/>
   </releases>
