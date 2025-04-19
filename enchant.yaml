@@ -5,7 +5,7 @@ config-opts:
   - --with-myspell-dir=/usr/share/hunspell
 sources:
   - type: archive
-    url: https://github.com/AbiWord/enchant/releases/download/enchant-1-6-1/enchant-1.6.1.tar.gz
+    url: https://github.com/AbiWord/enchant/archive/refs/tags/v2.8.2.tar.gz
     sha256: bef0d9c0fef2e4e8746956b68e4d6c6641f6b85bd2908d91731efb68eba9e3f5
   - type: shell
     commands:
