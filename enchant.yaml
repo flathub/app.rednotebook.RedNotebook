@@ -5,8 +5,8 @@ config-opts:
   - --with-myspell-dir=/usr/share/hunspell
 sources:
   - type: archive
-    url: https://github.com/AbiWord/enchant/archive/refs/tags/v2.8.2.tar.gz
-    sha256: ab4a85009672ec27c2c07dc00af38d42aa984e7901a0fd7e2c4dc8d3d3d97ed9
+    url: https://github.com/AbiWord/enchant/archive/refs/tags/enchant-1-6-1.tar.gz
+    sha256: ed2b11211a571ab5f963debf4c3bf3fc46541bb9cbb441b2997bd871ba8618d4
   - type: shell
     commands:
       - cp -p /usr/share/automake-*/config.{sub,guess} .
