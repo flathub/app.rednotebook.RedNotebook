@@ -6,7 +6,7 @@ config-opts:
 sources:
   - type: archive
     url: https://github.com/AbiWord/enchant/archive/refs/tags/v2.8.2.tar.gz
-    sha256: bef0d9c0fef2e4e8746956b68e4d6c6641f6b85bd2908d91731efb68eba9e3f5
+    sha256: ab4a85009672ec27c2c07dc00af38d42aa984e7901a0fd7e2c4dc8d3d3d97ed9
   - type: shell
     commands:
       - cp -p /usr/share/automake-*/config.{sub,guess} .
