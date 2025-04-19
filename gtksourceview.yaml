@@ -6,5 +6,3 @@ sources:
     tag: 5.16.0
 build-options:
   - -Dintrospection=true
-post-install:
-  - install -p -D -m 0644 "COPYING" -t "${FLATPAK_DEST}/share/licenses/gtksourceview/";
