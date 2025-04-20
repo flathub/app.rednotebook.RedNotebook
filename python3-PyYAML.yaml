@@ -1,7 +1,7 @@
-# Generated with flatpak-pip-generator --yaml pyyaml==6.0.2
+# Generated with flatpak-pip-generator --yaml PyYAML==6.0.2
 name: python3-PyYAML
 buildsystem: simple
 build-commands:
   - pip3 install --verbose --exists-action=i --no-index --find-links="file://${PWD}"
-    --prefix=${FLATPAK_DEST} "pyyaml==6.0.2" --no-build-isolation
+    --prefix=${FLATPAK_DEST} "PyYAML==6.0.2" --no-build-isolation
 sources: []
