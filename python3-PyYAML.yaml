@@ -4,4 +4,7 @@ buildsystem: simple
 build-commands:
   - pip3 install --verbose --exists-action=i --no-index --find-links="file://${PWD}"
     --prefix=${FLATPAK_DEST} "PyYAML==6.0.2" --no-build-isolation
-sources: []
+sources:
+  - type: pypi
+    name: PyYAML
+    version: 6.0.2
