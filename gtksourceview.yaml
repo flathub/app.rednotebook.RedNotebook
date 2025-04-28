@@ -1,14 +1,8 @@
 name: gtksourceview
-config-opts:
-  - --enable-vala=no
-  - --enable-gtk-doc=no
+buildsystem: meson
 sources:
-  - type: archive
-    url: https://download.gnome.org/sources/gtksourceview/3.24/gtksourceview-3.24.10.tar.xz
-    sha256: ab5406cdd0bdcf66afcd52b1e048a2f43c0f3ab391644ee30d9ac419b93cd59b
-  - type: shell
-    commands:
-      - cp -p /usr/share/automake-*/config.{sub,guess} .;
-      - autoreconf -vfi;
-post-install:
-  - install -p -D -m 0644 "COPYING" -t "${FLATPAK_DEST}/share/licenses/gtksourceview/";
+  - type: git
+    url: https://gitlab.gnome.org/GNOME/gtksourceview.git
+    tag: 4.8.4
+build-options:
+  - -Dintrospection=true

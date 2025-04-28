@@ -11,8 +11,7 @@ sources:
     path: rednotebook.desktop
     dest: data
 build-commands:
-  - python3 setup.py build;
-  - python3 setup.py install -O1 --skip-build --prefix="${FLATPAK_DEST}" --root="/";
+  - pip3 install --verbose --exists-action=i --no-deps --no-build-isolation --prefix="${FLATPAK_DEST}" --root="/" .
 post-install:
   - for f in rednotebook/images/rednotebook-icon/rn-*.png; do
     s="${f##*-}" s="${s%%.*}";
