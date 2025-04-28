@@ -3,6 +3,6 @@ buildsystem: meson
 sources:
   - type: git
     url: https://gitlab.gnome.org/GNOME/gtksourceview.git
-    tag: 5.16.0
+    tag: 4.8.4
 build-options:
   - -Dintrospection=true
