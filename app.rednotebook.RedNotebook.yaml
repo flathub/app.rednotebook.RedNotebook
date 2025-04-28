@@ -22,7 +22,7 @@ finish-args:
   # to access remote images
   - --share=network
   # OpenGL access
-  #- --device=dri # removed due to upstream GPU rendering bug for HTML views.
+  - --device=dri
 modules:
   - gtksourceview.yaml
   - enchant.yaml
