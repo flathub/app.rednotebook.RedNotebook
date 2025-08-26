@@ -4,5 +4,5 @@ sources:
   - type: git
     url: https://gitlab.gnome.org/GNOME/gtksourceview.git
     tag: 4.8.4
-build-options:
-  - -Dintrospection=true
+config-opts:
+  - -Dgir=true  # Option is called "introspection" in later versions.
