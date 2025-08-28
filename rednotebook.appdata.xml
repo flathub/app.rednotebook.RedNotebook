@@ -56,6 +56,6 @@
 
   <!-- https://www.freedesktop.org/software/appstream/docs/chap-Metadata.html#tag-releases -->
   <releases>
-    <release version="2.40" date="2025-08-26"/>
+    <release version="2.41" date="2025-08-28"/>
   </releases>
 </component>
