@@ -2,7 +2,7 @@ name: python3-pyenchant
 buildsystem: simple
 sources:
   - type: file
-    url: https://files.pythonhosted.org/packages/d8/43/87ddf3feb92de8464d082f3fc80541bcff6c5b54ef286ff5ef70db7c8da7/pyenchant-3.1.1.tar.gz
-    sha256: ce0915d7acd771fde6e8c2dce8ad0cb0e6f7c4fa8430cc96e3e7134e99aeb12f
+    url: https://files.pythonhosted.org/packages/d1/67/00e8d934eafd86866e7b2b8953f1fb37ef9b068759db2b91eeac7bb06a23/pyenchant-3.1.1-py3-none-any.whl
+    sha256: e8c8adbb0d9dc2792adbadfbf44466922d01d9dd2efaff9c1ca63a015faf0dd7
 build-commands:
-  - pip3 install --no-index --find-links="file://${PWD}" --prefix="${FLATPAK_DEST}" pyenchant
+  - pip3 install --no-index --find-links="file://${PWD}" --prefix="${FLATPAK_DEST}" --no-build-isolation --no-deps pyenchant
