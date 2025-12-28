@@ -7,11 +7,12 @@ sources:
   - type: archive
     url: https://github.com/rrthomas/enchant/releases/download/v2.8.2/enchant-2.8.2.tar.gz
     sha256: 8f19535adb5577b83b00e02f330fe9b9eb40dd21f19e2899636fc4d3a7696375
-  - type: shell
-    commands:
-      - cp -p /usr/share/automake-*/config.{sub,guess} .
-      - autoreconf -vfi;
+    x-checker-data:
+      type: anitya
+      project-id: 6601
+      stable-only: true
+      url-template: https://github.com/rrthomas/enchant/releases/download/v$version/enchant-$version.tar.gz
 post-install:
-  - install -p -D -m 0644 "COPYING.LIB" -t "${FLATPAK_DEST}/share/licenses/enchant/";
+  - install -p -D -m 0644 COPYING.LIB -t "${FLATPAK_DEST}/share/licenses/enchant/"
 cleanup:
   - /bin
