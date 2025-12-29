@@ -7,9 +7,6 @@ rename-appdata-file: rednotebook.appdata.xml
 rename-desktop-file: rednotebook.desktop
 rename-icon: rednotebook
 copy-icon: true
-build-options:
-  env:
-    GTK_MODULES: ""
 finish-args:
   # X11 + XShm access
   - --share=ipc
