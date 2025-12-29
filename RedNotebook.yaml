@@ -2,8 +2,8 @@ name: RedNotebook
 buildsystem: simple
 sources:
   - type: archive
-    url: https://github.com/jendrikseipp/rednotebook/archive/v2.42.tar.gz
-    sha256: f0eddb338a74c5819000a6be16ef24b2821f9e60f86b3505f93f9a5bd2e3e9b2
+    url: https://github.com/jendrikseipp/rednotebook/archive/v2.41.tar.gz
+    sha256: 881027e014ff4ccc0187d5400fc43298c37221b969b79abf90dcaaea9fa1e993
     x-checker-data:
       type: anitya
       project-id: 6081
@@ -16,7 +16,10 @@ sources:
     path: rednotebook.desktop
     dest: data
 build-commands:
-  - pip3 install --verbose --exists-action=i --no-deps --no-build-isolation --prefix="${FLATPAK_DEST}" --root="/" .
+  - pip3 install --verbose --exists-action=i --no-deps --no-build-isolation --prefix="${FLATPAK_DEST}"
+    --root="/" .
 post-install:
-  - for f in rednotebook/images/rednotebook-icon/rn-*.png; do s="${f##*-}" s="${s%%.*}"; install -p -D -m 0644 "${f}" "${FLATPAK_DEST}/share/icons/hicolor/${s}x${s}/apps/rednotebook.png"; done
+  - for f in rednotebook/images/rednotebook-icon/rn-*.png; do s="${f##*-}" s="${s%%.*}";
+    install -p -D -m 0644 "${f}" "${FLATPAK_DEST}/share/icons/hicolor/${s}x${s}/apps/rednotebook.png";
+    done
   - install -p -D -m 0644 LICENSE -t "${FLATPAK_DEST}/share/licenses/rednotebook/"
