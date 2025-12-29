@@ -13,6 +13,8 @@ finish-args:
   - --socket=x11
   # Wayland access
   - --socket=wayland
+  # Disable GTK module warnings for missing canberra
+  - --env=GTK_MODULES=
   # Filesystem access
   # to access local images and other files
   - --filesystem=home
