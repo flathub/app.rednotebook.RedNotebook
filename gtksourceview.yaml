@@ -8,8 +8,8 @@ sources:
       type: anitya
       project-id: 319342
       stable-only: true
-      url-template: https://download.gnome.org/sources/gtksourceview/4.8/gtksourceview-$version.tar.xz
+      url-template: https://download.gnome.org/sources/gtksourceview/$major.$minor/gtksourceview-$version.tar.xz
       versions:
-        <: "5"  # Not tested with gtksourceview 5.* versions     
+        <: "5"  # Not tested with gtksourceview 5.* versions
 config-opts:
   - -Dgir=true  # Option is called "introspection" in later versions.
