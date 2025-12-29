@@ -7,14 +7,15 @@ rename-appdata-file: rednotebook.appdata.xml
 rename-desktop-file: rednotebook.desktop
 rename-icon: rednotebook
 copy-icon: true
+build-options:
+  env:
+    GTK_MODULES: ""
 finish-args:
   # X11 + XShm access
   - --share=ipc
   - --socket=x11
   # Wayland access
   - --socket=wayland
-  # Disable GTK module warnings for missing canberra
-  - --env=GTK_MODULES=
   # Filesystem access
   # to access local images and other files
   - --filesystem=home
