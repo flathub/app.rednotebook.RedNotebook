@@ -4,12 +4,6 @@ sources:
   - type: archive
     url: https://github.com/jendrikseipp/rednotebook/archive/v2.42.tar.gz
     sha256: f0eddb338a74c5819000a6be16ef24b2821f9e60f86b3505f93f9a5bd2e3e9b2
-  - type: file
-    path: rednotebook.appdata.xml
-    dest: data
-  - type: file
-    path: rednotebook.desktop
-    dest: data
 build-commands:
   - pip3 install --verbose --exists-action=i --no-deps --no-build-isolation --prefix="${FLATPAK_DEST}" --root="/" .
 post-install:
