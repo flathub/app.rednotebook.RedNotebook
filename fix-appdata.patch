@@ -1,14 +1,14 @@
-From c6bb8b951c62c90ed27aa2bd6c62433c975c33c7 Mon Sep 17 00:00:00 2001
+From 8e3a450a3a84de3d06b64bee78f0f4ab62398f92 Mon Sep 17 00:00:00 2001
 From: Sabri Ünal <yakushabb@gmail.com>
-Date: Sun, 15 Feb 2026 13:21:25 +0300
+Date: Mon, 16 Feb 2026 00:26:25 +0300
 Subject: [PATCH] Fix appdata paper cuts
 
 ---
- data/rednotebook.appdata.xml | 6 +++---
- 1 file changed, 3 insertions(+), 3 deletions(-)
+ data/rednotebook.appdata.xml | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
 
 diff --git a/data/rednotebook.appdata.xml b/data/rednotebook.appdata.xml
-index 6edd95b..8972a1f 100644
+index 6edd95b..1fefef7 100644
 --- a/data/rednotebook.appdata.xml
 +++ b/data/rednotebook.appdata.xml
 @@ -1,12 +1,12 @@
@@ -16,14 +16,13 @@ index 6edd95b..8972a1f 100644
 -<component type="desktop">
 +<component type="desktop-application">
    <!-- https://www.freedesktop.org/software/appstream/docs/sect-Metadata-Application.html#tag-id-desktopapp -->
--  <id>rednotebook</id>
-+  <id>app.rednotebook</id>
+   <id>rednotebook</id>
    <metadata_license>CC0-1.0</metadata_license>
    <!-- https://www.freedesktop.org/software/appstream/docs/chap-Metadata.html#tag-project_license -->
    <project_license>GPL-2.0+</project_license>
    <name>RedNotebook</name>
 -  <developer>
-+  <developer id="io.github.jendrikseipp">
++  <developer id="app.rednotebook">
      <name>Jendrik Seipp</name>
    </developer>
    <update_contact>jendrikseipp_AT_gmail.com</update_contact>
