@@ -23,16 +23,18 @@ finish-args:
   - --share=network
   # OpenGL access
   - --device=dri
+cleanup:
+  - /include
+  - /lib/pkgconfig
+  - /share/doc
+  - /share/gir-1.0
+  - /share/gtk-doc
+  - /share/man
+  - /share/vala
+  - '*.la'
 modules:
   - gtksourceview.yaml
   - enchant.yaml
   - python3-pyenchant.yaml
-  - libyaml.yaml
   - python3-PyYAML.yaml
   - RedNotebook.yaml
-cleanup:
-  - /include
-  - /lib/pkgconfig
-  - /share/gtk-doc
-  - /share/man
-  - '*.la'
